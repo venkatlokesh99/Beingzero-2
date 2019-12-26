@@ -54,5 +54,5 @@ if(count===9)
     $(".btn").show();
     return;
 }
-console.log(board);
+// console.log(board);
 })
