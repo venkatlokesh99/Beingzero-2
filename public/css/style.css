@@ -1,0 +1,17 @@
+td{
+    text-align: center;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+}
+.fullb{
+    border: 2px solid black;
+}
+.lrb{
+    border-left: 2px solid black;
+    border-right:2px solid black ;
+}
+.tbr{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
