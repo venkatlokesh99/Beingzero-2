@@ -26,7 +26,6 @@ $(document).ready(function(){
 })
 if(isPlay)
 $("td").click(function(){
-    count++;
     if(!isPlay)
    return;
 var c=$(this).attr("id");
@@ -35,11 +34,13 @@ if(p1===true){
     $(this).text('X');
     p1=false;
     board[c]='X'
+    count++;
 }
 else{
     $(this).text('O');
     p1=true;
     board[c]='O'
+    count++;
 }
 }
 if(checkWinner()!=undefined){
